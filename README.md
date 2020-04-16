@@ -26,6 +26,7 @@ rails -v
 ```
 
 ## Step 5. Create our skeleton folder
+The following steps are with the assumption that you are creating a brand new folder and now downloading mine
 Enter the command (rails new 'your_project_name')
 ```
 rails new todo
@@ -36,17 +37,21 @@ Once the skeleton folder is created, we'll cd into the project folder (cd 'your_
 ```
 cd todo
 ```
-start the rails server
+Start the rails server
 ```
 rails server
 ```
 Then navigate to your server's website at localhost:3000 or 127.0.0.1:3000
 
-
+# Troubleshooting
+Once you start making changes, you may get an errors when trying to start your rails server
+Make sure to run the following command to check missing migrations that need to be applied to the database
+```
+rake db:migrate
+```
 
 # Questions to self
 - Run Ruby files in CMD
-
 
 # References
 - [Setup Ruby on Rails Installation for Windows](http://facweb.cdm.depaul.edu/sjost/it232/documents/rails-installation-windows.htm)
