@@ -50,9 +50,6 @@ Make sure to run the following command to check missing migrations that need to 
 rake db:migrate
 ```
 
-# Questions to self
-- Run Ruby files in CMD
-
 # References
 - [Setup Ruby on Rails Installation for Windows](http://facweb.cdm.depaul.edu/sjost/it232/documents/rails-installation-windows.htm)
 - [Todo list application](https://medium.com/@deallen7/how-to-build-a-todo-app-in-rails-e6571fcccac3)
